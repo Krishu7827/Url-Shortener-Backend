@@ -1,5 +1,5 @@
 
-# URL Shortener Backend
+# Url-Shortener-Backend
 
 This Node.js-based backend powers a URL shortener service, offering an API for URL shortening and incorporating user authentication via JWT.
 
@@ -41,13 +41,13 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Krishu7827/url-shortener-backend.git
+   git clone https://github.com/Krishu7827/Url-Shortener-Backend.git
    ```
 
 2. Install dependencies:
 
    ```bash
-   cd url-shortener-backend
+   cd Url-Shortener-Backend
    npm install
    ```
 
@@ -69,7 +69,7 @@ Replace `your_jwt_secret_key` with a secure and unique key for JWT.
 
 #### Register a User
 
-- **Route:** `POST /api/user/register`
+- **Route:** `POST /user/register`
 - **Request Body:**
 
   ```json
@@ -91,7 +91,7 @@ Replace `your_jwt_secret_key` with a secure and unique key for JWT.
 
 #### Login
 
-- **Route:** `POST /api/user/login`
+- **Route:** `POST /user/login`
 - **Request Body:**
 
   ```json
@@ -112,7 +112,7 @@ Replace `your_jwt_secret_key` with a secure and unique key for JWT.
 
 #### Shorten a URL
 
-- **Route:** `POST /api/url/shorten`
+- **Route:** `POST /url/shorten`
 - **Request Body (`Requires JWT Authentication Token`):**
 
   ```
